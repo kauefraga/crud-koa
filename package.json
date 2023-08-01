@@ -7,7 +7,8 @@
     "build": "tsup src",
     "start": "node .",
     "dev": "NODE_ENV=development tsx watch src/http/server.ts",
-    "migrations": "NODE_ENV=development tsx src/infra/migrations.ts"
+    "migrations": "NODE_ENV=development tsx src/infra/migrations.ts",
+    "test": "ava"
   },
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
@@ -15,6 +16,7 @@
     "@types/koa": "^2.13.8",
     "@types/koa__router": "^12.0.0",
     "@types/node": "^20.4.5",
+    "ava": "^5.3.1",
     "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
