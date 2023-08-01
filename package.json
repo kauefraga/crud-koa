@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsup src",
     "start": "node .",
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "NODE_ENV=development tsx watch src/http/server.ts",
+    "migrations": "NODE_ENV=development tsx src/infra/migrations.ts"
   },
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
@@ -21,6 +22,7 @@
   "dependencies": {
     "@koa/router": "^12.0.0",
     "dotenv": "^16.3.1",
-    "koa": "^2.14.2"
+    "koa": "^2.14.2",
+    "postgres": "^3.3.5"
   }
 }

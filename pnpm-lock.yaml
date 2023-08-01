@@ -10,6 +10,9 @@ dependencies:
   koa:
     specifier: ^2.14.2
     version: 2.14.2
+  postgres:
+    specifier: ^3.3.5
+    version: 3.3.5
 
 devDependencies:
   '@types/koa':
@@ -1317,6 +1320,10 @@ packages:
       lilconfig: 2.1.0
       yaml: 2.3.1
     dev: true
+
+  /postgres@3.3.5:
+    resolution: {integrity: sha512-+JD93VELV9gHkqpV5gdL5/70HdGtEw4/XE1S4BC8f1mcPmdib3K5XsKVbnR1XcAyC41zOnifJ+9YRKxdIsXiUw==}
+    dev: false
 
   /punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
