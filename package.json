@@ -11,9 +11,15 @@
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/koa": "^2.13.8",
+    "@types/koa__router": "^12.0.0",
     "@types/node": "^20.4.5",
     "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.2"
   }
 }
