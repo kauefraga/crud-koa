@@ -1,0 +1,19 @@
+{
+  "name": "crud-koa",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./dist/http/server.js",
+  "scripts": {
+    "build": "tsup src",
+    "start": "node .",
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
